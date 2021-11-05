@@ -10,3 +10,4 @@
 * star_names.csv
 * ssystem_major.csv
 * ssystem_minor.csv
+* base_locations.txt
