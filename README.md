@@ -20,10 +20,24 @@ Link : [Skyfield](https://github.com/skyfielders/python-skyfield/blob/master/sky
 
 * hip_main.dat
 
+### Further data has been analysed and added using the exoplanets catalog
+
+* exoplanet.eu_catalog.dat
+
 ### The following functionalities are added:
 
 * get ra and dec values from hip values
 * get l and b values from hip values
 * plotting the constellations
 
+### The below mentioned data had been collected till now:
+
+* hip
+* mag
+* ra and dec (units)
+* ra and dec (deg)
+* x and y
+* constellation names
+* mass
+* distance
 
