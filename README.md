@@ -4,6 +4,8 @@
 
 This repository is created for analyzing planetary and exoplanetary datasets and extract important information as there was no combined dataset available that has all the information.
 
+> NOTE: The analysis of the data is done using the Jupyter Notebook in order to improve data visualization.
+
 ### Datasets:
 The information is extracted from the following datasets:
 
@@ -46,3 +48,23 @@ Further data has been analysed and added using the exoplanets catalog
 #### HYG dataset
 
 * hygdata_v3.csv
+
+### Additional functionalities
+
+Some of the useful functionalities that are provided in this repository are:
+
+#### get l and b values (galatic coordinates) from hip values
+
+```python
+equ2gal(000.00091185, +01.08901332)
+>> (33.146182060432565, 0.5695493882865139)
+```
+
+#### plotting individual constellations
+
+![plotting individual constellations](pictures/display_cons.jpg)
+
+
+#### visualizing the constellations using three boundary stars
+
+<img src="pictures/cons.jpg" width="600" height="600">
